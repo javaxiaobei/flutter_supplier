@@ -12,9 +12,6 @@ class LoginPage extends StatefulWidget {
 
 class _LoginPageState extends State<LoginPage> with SingleTickerProviderStateMixin {
   AnimationController _controller;
-
-
-
   //输入的账号就是手机号
   String username = "";
   //输入的密码
@@ -144,7 +141,7 @@ class _LoginPageState extends State<LoginPage> with SingleTickerProviderStateMix
                       
                     },
                     child: Text(
-                        "忘记密码?",
+                        " 注  册 ",
                         textAlign: TextAlign.right,
                         style: TextStyle(color: Colors.black54)
                     ),
@@ -158,6 +155,7 @@ class _LoginPageState extends State<LoginPage> with SingleTickerProviderStateMix
         ),
       );
     }
+
 
     @override
     Widget build(BuildContext context) {
